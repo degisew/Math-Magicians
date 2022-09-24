@@ -6,10 +6,8 @@
 
 ## Built With the following
 
-- HTML5
+- React
 - CSS
-- Modern JavaScript
-- Webpack Bundler
 - Linters
 
 ### Prerequisites
