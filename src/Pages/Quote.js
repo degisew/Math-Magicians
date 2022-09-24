@@ -5,7 +5,8 @@ function Quote() {
     <div className="quote">
       <p>
         Math Magicians is not about Numbers, equations, Computations or
-        Algorithms: it is about understanding. -William paul thurston
+        Algorithms: it is about understanding. -
+        <strong>William paul thurston</strong>
       </p>
     </div>
   );
