@@ -10,6 +10,9 @@
 - CSS
 - Linters
 
+### Live Demo Link
+[Live Demo](https://merry-mermaid-719de4.netlify.app/)
+
 ### Prerequisites
 
 - You should be having [Node.js](https://nodejs.org/en/) installed on your computer
