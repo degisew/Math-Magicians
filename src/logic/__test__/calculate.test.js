@@ -13,7 +13,6 @@ describe('Calculate', () => {
   test('return null', () => {
     const obj = {
 
-      
       total: null,
       next: null,
       operation: null,
