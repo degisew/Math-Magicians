@@ -15,7 +15,7 @@ const calculator = () => {
   };
   return (
     <div className="calc-container">
-      <div className=" calc-screen">
+      <div className="calc-screen" data-testid="res">
         <span>{res.total}</span>
         <span>{res.operation}</span>
         <span>{res.next}</span>
@@ -31,6 +31,7 @@ const calculator = () => {
         className="td row1-col2"
       />
       <Rows
+        data-testid="ac"
         buttonName="%"
         onClick={eventHandler}
         className="td row1-col3"
