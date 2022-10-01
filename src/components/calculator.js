@@ -15,7 +15,7 @@ const calculator = () => {
   };
   return (
     <div className="calc-container">
-      <div className="calc-screen" data-testid="res">
+      <div className="calc-screen" data-testid="display">
         <span>{res.total}</span>
         <span>{res.operation}</span>
         <span>{res.next}</span>
