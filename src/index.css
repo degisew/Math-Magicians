@@ -3,8 +3,14 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: block;
+  padding: 20px;
 }
 
 .header-title {
@@ -21,6 +27,10 @@ body {
   align-items: center;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto;
+}
+
+.calc-page strong {
+  font-size: 30px;
 }
 
 .td {
@@ -44,6 +54,14 @@ body {
   padding-right: 3px;
 }
 
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: 100%;
+  height: inherit;
+}
+
 .row5-col1 {
   grid-column: 1 / span 2;
   grid-row: 6;
@@ -51,4 +69,49 @@ body {
 
 .operator {
   background-color: hsla(30, 82%, 49%, 0.911);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: gray;
+  height: 50px;
+}
+
+.nav-link {
+  display: flex;
+  float: right;
+  column-gap: 20px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.NavLink {
+  text-decoration-line: none;
+  color: white;
+}
+
+.home,
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.home strong {
+  align-self: flex-start;
+}
+
+.li {
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
 }

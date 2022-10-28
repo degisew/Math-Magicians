@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Did component has changed? 1`] = `
+<header>
+  <p
+    className="logo"
+  >
+    Math Magicians
+  </p>
+  <ul
+    className="nav-link"
+  >
+    <li
+      className="li"
+      data-testid="li"
+    >
+      <a
+        aria-current="page"
+        className="NavLink active"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="li"
+      data-testid="li"
+    >
+      <a
+        className="NavLink"
+        href="/Calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      data-testid="li"
+    >
+      <a
+        className="NavLink"
+        href="/Quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</header>
+`;
