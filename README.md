@@ -10,21 +10,32 @@
 - CSS
 - Linters
 
-## Get Started
+### Live Demo Link
+[Live Demo](https://merry-mermaid-719de4.netlify.app/)
 
-Please get your browser update.
-To get a local copy up and running follow these simple steps.
+### Prerequisites
 
-Run the command below from the Terminal:
+- You should be having [Node.js](https://nodejs.org/en/) installed on your computer
+### Setup
 
+To get a local copy up and running follow these simple example steps.
+
+1. Navigate to a folder where you want the cloned file to appear
+
+2. Clone this repo in your terminal or git bash using the command
+
+   ```
      git clone <URL> 'https://github.com/degisew/Math-Magicians-React-App' in your terminal
       
-      cd setup
+   ```
 
-## Setup to start
+3. run `npm install ` to install all the necessary dependencies including the linters
 
+4. Navigate to the folder called Math Magician/ and open this project using your editor
+## run start
 In the project directory, you can run:
 ### `npm start`
+- This will run the react app in your browser 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
